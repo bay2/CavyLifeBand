@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  CavyLifeBand
+
+  Created by blacksmith on 2015/10/14.
+  Copyright © 2015年 blacksmith. All rights reserved.
+*/
+
+//main page part
+"CavyBand" = "豚鼠手環";
+"Searching Devices…" = "正在搜索附近設備…";
+"Click to Search Devices" = "點擊搜索附近設備";
+"Connect" = "連線";
+"Disconnect" = "斷線";
+
+//setting page part
+"Settings" = "設置";
+"Call Reminder" = "來電提醒";
+"CallReminder Band Vibrates" = "來電時手環震動";
+"Reconnect" = "斷線重連" ;
+"Auto Reconnect" = "手環斷線後自動重連";
+"Phone Loss Warning" = "手機防丟" ;
+"PhoneLoss Band Vibrates" = "斷線後手環震動";
+"Band Loss Warning" = "手環防丟";
+"BandLoss Phone Alarms" = "斷線後手機發出警告音";
+"BandLoss Phone Vibrates" = "斷線後手機震動";
+
+//计步
+"Walking" = "計步";
+"Todoy Count" = "今日步數";
+"Seven Day"   = "最近七天";
+"Every Day Count Avg" = "每天平均步數";
+"Distance"      = "距離：公里";
+"Active Time"   = "活躍：分鐘";
+
+//camera page part
+"FlashLight On" = "打開";
+"FlashLight Off" = "關閉";
+"FlashLight Auto" = "自動";
+"Photo"             = "照片";
+
+//dialog message part
+"Connecting…" = "連線中…";
+"Band Disconnected" = "手環已斷線";
+"Check the band location and battery status." = "請確認手環方位及電源狀態。";
+"Dismiss" = "關閉";
+"Connection Failed" = "連線失敗";
+"Connection time out, please check band power status." = "手環連線超時，請檢查手環是否開啟。";
+"ConfirmOK" = "確定";
+"BluetoothOffMessage" = "藍芽裝置未開啟，請開啟藍芽設定!";

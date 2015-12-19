@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  CavyLifeBand
+
+  Created by blacksmith on 2015/10/14.
+  Copyright © 2015年 blacksmith. All rights reserved.
+*/
+
+//main page part
+"CavyBand"                  = "豚鼠手环";
+"Searching Devices…"        = "正在搜索附近设备…";
+"Click to Search Devices"   = "点击搜索附近设备";
+"Connect"                   = "连线";
+"Disconnect"                = "断线";
+
+//setting page part
+"Settings"                      = "设置";
+"Call Reminder"                 = "来电提醒";
+"CallReminder Band Vibrates"    = "来电时手环震动";
+"Reconnect"                     = "断线重连" ;
+"Auto Reconnect"                = "手环断线后自动重连";
+"Phone Loss Warning"            = "手机防丢" ;
+"PhoneLoss Band Vibrates"       = "断线后手环震动";
+"Band Loss Warning"             = "手环防丢";
+"BandLoss Phone Alarms"         = "断线后手机发出警告音";
+"BandLoss Phone Vibrates"       = "断线后手机震动";
+
+//计步
+"Walking" = "计步";
+"Todoy Count" = "今日步数";
+"Seven Day"   = "最近七天";
+"Every Day Count Avg" = "每日平均步数";
+"Distance"      = "距离：公里";
+"Active Time"   = "活跃：分钟";
+
+//camera page part
+"FlashLight On"     = "打开";
+"FlashLight Off"    = "关闭";
+"FlashLight Auto"   = "自动";
+"Photo"             = "照片";
+
+//dialog message part
+"Connecting…"                                           = "连线中…";
+"Band Disconnected"                                     = "手环已断线";
+"Check the band location and battery status."           = "请确认手环方位及电源状态。";
+"Dismiss"                                               = "关闭";
+"Connection Failed"                                     = "连线失败";
+"Connection time out, please check band power status."  = "手环连线超时，请检查手环是否开启。";
+"ConfirmOK"                                             = "确定";
+"BluetoothOffMessage"                                   = "蓝牙装置未开启，请开启蓝牙设定!";
+
+
+

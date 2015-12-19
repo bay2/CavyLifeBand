@@ -1,0 +1,69 @@
+
+/* Class = "UILabel"; text = "手環斷線後嘗試重新連線"; ObjectID = "4PJ-IL-Ord"; */
+"4PJ-IL-Ord.text" = "手環斷線後嘗試重新連線";
+
+/* Class = "UINavigationItem"; title = "手環"; ObjectID = "68N-U3-niQ"; */
+"68N-U3-niQ.title" = "手環";
+
+/* Class = "UILabel"; text = "来电时手环震动"; ObjectID = "6xi-2H-v5N"; */
+"6xi-2H-v5N.text" = "来电时手环震动";
+
+/* Class = "UITableViewSection"; headerTitle = "手环防丢"; ObjectID = "8Ll-AH-tNA"; */
+"8Ll-AH-tNA.headerTitle" = "手环防丢";
+
+/* Class = "UIButton"; normalTitle = "打開"; ObjectID = "9a9-Ho-WKv"; */
+"9a9-Ho-WKv.normalTitle" = "打開";
+
+/* Class = "UINavigationItem"; title = "設置"; ObjectID = "AEh-kU-rVb"; */
+"AEh-kU-rVb.title" = "设置";
+
+/* Class = "UINavigationItem"; title = "豚鼠手环"; ObjectID = "GTD-s2-FNq"; */
+"GTD-s2-FNq.title" = "豚鼠手环";
+
+/* Class = "UILabel"; text = "RequestDataSec"; ObjectID = "Gs4-Ei-cPn"; */
+"Gs4-Ei-cPn.text" = "RequestDataSec";
+
+/* Class = "UILabel"; text = "断线后手机震动"; ObjectID = "OOq-ph-yns"; */
+"OOq-ph-yns.text" = "断线后手机震动";
+
+/* Class = "UILabel"; text = "正在搜索附近設備"; ObjectID = "Qao-1f-9Ot"; */
+"Qao-1f-9Ot.text" = "正在搜索附近設備";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Wuz-Oy-MEo"; */
+"Wuz-Oy-MEo.text" = "Name";
+
+/* Class = "UILabel"; text = "断线后手环震动"; ObjectID = "XDA-tX-RkB"; */
+"XDA-tX-RkB.text" = "断线后手环震动";
+
+/* Class = "UIButton"; normalTitle = "自動"; ObjectID = "ZWy-mR-VwE"; */
+"ZWy-mR-VwE.normalTitle" = "自動";
+
+/* Class = "UITableViewSection"; headerTitle = "測試用"; ObjectID = "aKV-a4-On4"; */
+"aKV-a4-On4.headerTitle" = "測試用";
+
+/* Class = "UITableViewSection"; headerTitle = "断线重连"; ObjectID = "baB-Gx-TCK"; */
+"baB-Gx-TCK.headerTitle" = "断线重连";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "e6f-DC-FLa"; */
+"e6f-DC-FLa.text" = "Loading";
+
+/* Class = "UIButton"; normalTitle = "關閉"; ObjectID = "fgT-bb-eju"; */
+"fgT-bb-eju.normalTitle" = "關閉";
+
+/* Class = "UITableViewSection"; headerTitle = "来电提醒"; ObjectID = "flN-gU-Xed"; */
+"flN-gU-Xed.headerTitle" = "来电提醒";
+
+/* Class = "UILabel"; text = "断线后手机发出警告音"; ObjectID = "hQz-id-eee"; */
+"hQz-id-eee.text" = "断线后手机发出警告音";
+
+/* Class = "UINavigationItem"; title = "Image"; ObjectID = "her-aj-Lmr"; */
+"her-aj-Lmr.title" = "Image";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ks3-AA-HL1"; */
+"ks3-AA-HL1.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "手机防丢"; ObjectID = "pXR-gh-VeC"; */
+"pXR-gh-VeC.headerTitle" = "手机防丢";
+
+/* Class = "UILabel"; text = "UUID"; ObjectID = "rnx-b9-6Hm"; */
+"rnx-b9-6Hm.text" = "UUID";

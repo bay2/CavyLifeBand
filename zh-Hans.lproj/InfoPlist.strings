@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  CavyLifeBand
+
+  Created by blacksmith on 2015/10/15.
+  Copyright © 2015年 blacksmith. All rights reserved.
+*/
+
+/* Localized versions Chinese Simplified of Info.plist keys */
+"CFBundleDisplayName" = "豚鼠手环";
+"CFBundleName" = "豚鼠手环";

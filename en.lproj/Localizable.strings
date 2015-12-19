@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  CavyLifeBand
+
+  Created by blacksmith on 2015/10/14.
+  Copyright © 2015年 blacksmith. All rights reserved.
+*/
+
+//main page part
+"CavyBand"                  = "CavyBand";
+"Searching Devices…"        = "Searching Devices…";
+"Click to Search Devices"   = "Click to Search Devices";
+"Connect"                   = "Connect";
+"Disconnect"                = "Break";
+
+//setting page part
+"Settings"                      = "Settings";
+"Call Reminder"                 = "Call Reminder";
+"CallReminder Band Vibrates"    = "Band Vibrates";
+"Reconnect"                     = "Reconnect" ;
+"Auto Reconnect"                = "Auto Reconnect";
+"Phone Loss Warning"            = "Phone Loss Warning" ;
+"PhoneLoss Band Vibrates"       = "Band Vibrates";
+"Band Loss Warning"             = "Band Loss Warning";
+"BandLoss Phone Alarms"         = "Phone Alarms";
+"BandLoss Phone Vibrates"       = "Phone Vibrates";
+
+//计步
+"Walking" = "Step Count";
+"Todoy Count" = "Steps Today";
+"Seven Day"   = "Latest 7 Day";
+"Every Day Count Avg" = "Avg. Steps";
+"Distance"      = "Dist.: KM";
+"Active Time"   = "Active: Min.";
+
+//camera page part
+"FlashLight On"     = "On";
+"FlashLight Off"    = "Off";
+"FlashLight Auto"   = "Auto";
+"Photo"             = "Photo";
+
+//dialog message part
+"Connecting…"                                           = "Connecting…";
+"Band Disconnected"                                     = "Band Disconnected";
+"Check the band location and battery status."           = "Check the band location and battery status.";
+"Dismiss"                                               = "Dismiss";
+"Connection Failed"                                     = "Connection Failed";
+"Connection time out, please check band power status."  = "Connection time out, please check band power status.";
+"ConfirmOK"                                             = "Ok";
+"BluetoothOffMessage"                                   = "Bluetooth is off, please turn on Bluetooth";

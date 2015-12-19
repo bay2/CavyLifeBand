@@ -1,0 +1,157 @@
+//描述文字字体大小
+$desFontSize = 13
+//统计值字体大小
+$statValueFontSize = 40
+//统计值颜色大小
+$statValueFontColor = #676767
+WalkingView {
+
+
+    UILabel {
+        text-color: #bfbfbf;
+    }
+
+    UILabel.todayLab {
+        cas_marginTop: 16;
+        cas_marginLeft: 16;
+        font: 17;
+        text-alignment: left;
+    }
+    
+    UILabel.everyDayCountLab {
+        text-color: #8fdc47;
+        text-alignment: left;
+        cas_sizeHeight: 35
+    }
+    
+    UILabel.dateLab {
+        font:12 
+        text-alignment: left;
+    }
+    
+    UILabel.sevenDayLab {
+        cas_marginTop: 16;
+        cas_marginRight: -33;
+        font: 12;
+        text-alignment: right;
+    }
+    
+    UILabel.dayLab {
+        font: 12;
+        text-alignment: center;
+    }
+    
+    UILabel.everyDayLab {
+        font: $desFontSize;
+        text-color: #CDCDCD;
+        text-alignment: center;
+        cas_sizeWidth: 99
+        cas_marginTop: 37;
+    }
+    
+    UILabel.distanceLab {
+        font: $desFontSize;
+        text-color: #CDCDCD;
+        text-alignment: center;
+        cas_sizeWidth: 99
+    }
+
+    UILabel.activeLab {
+        font: $desFontSize;
+        text-color: #CDCDCD;
+        text-alignment: center;
+        cas_sizeWidth: 99
+    }
+    
+    UILabel.weekLab {
+        font: 12;
+        cas_sizeHeight: 10;
+        cas_marginBottom: -18;
+        text-alignment: center;
+        text-color: #CDCDCD
+    }
+    
+    UILabel.dayLabs {
+        cas_sizeHeight: 13;
+        font: 16;
+        text-alignment: center;
+    }
+    
+    UILabel.distaceValueLab {
+
+        text-alignment: center;
+        text-color: $statValueFontColor;
+    }
+    
+    UILabel.activeValueLab {
+
+        text-alignment: center;
+        text-color: $statValueFontColor;
+    }
+    
+    UILabel.everyDayValueLab {
+
+        text-alignment: center;
+        text-color: $statValueFontColor;
+        cas_sizeHeight : 36
+    }
+    
+    UIView.chartView {
+        cas_marginTop: 0
+        cas_marginLeft: 0
+        cas_marginRight: 0
+        cas_sizeHeight: 535
+        background-color: white;
+        layer: @{
+            border-width: 0.33
+            border-color: #C0C0C0;
+        }
+    }
+    
+    UIView.lineView {
+        cas_sizeHeight: 33;
+        cas_sizeWidth: 0.33;
+        background-color: #C0C0C0;
+    }
+    
+    UIView.scaleLineView {
+        cas_marginLeft: 0;
+        cas_marginRight: 0;
+        cas_sizeHeight: 0.33;
+
+        background-color: #bfbfbf;
+    }
+    
+    UIImageView.sampleImg {
+        cas_marginTop: 16
+        cas_marginRight: -18
+    }
+    
+    UIImageView.scaleImgView {
+        cas_marginBottom: -56
+    }
+    
+    UIImageView.barChartImgView {
+        cas_sizeWidth: 28
+        cas_marginTop: 125.67
+        cas_marginBottom: -76.33
+    }
+    
+    UIView.statView {
+        cas_marginLeft: 0
+        cas_marginRight: 0
+        cas_marginBottom: 0
+        cas_sizeHeight: 127
+        background-color: white;
+    }
+    
+    UIView.mainView {
+        background-color: #f6f6f6;
+    }
+    
+    UILabel.stepLab {
+        font: 12
+        text-color: #8fdc47;
+    }
+
+}
