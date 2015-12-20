@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405502F579E8C887019D8CC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DF7DAF86C4B25EB9A9B5A5 /* libPods.a */; };
 		5517F8711BCDF8FE008332B1 /* CustomPopupDialogControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5517F8701BCDF8FE008332B1 /* CustomPopupDialogControllerViewController.m */; };
 		5517F8791BCE0463008332B1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5517F87B1BCE0463008332B1 /* Localizable.strings */; };
 		5517F87F1BCE1BE6008332B1 /* CavyLifeBandDefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 5517F87E1BCE1BE6008332B1 /* CavyLifeBandDefined.m */; };
@@ -83,7 +84,6 @@
 		91BC8C2A1C1ED97600195FEF /* scale@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91BC8C281C1ED97600195FEF /* scale@3x.png */; };
 		91D5678C1C1B9C820061D157 /* walkingView.cas in Resources */ = {isa = PBXBuildFile; fileRef = 91D5678B1C1B9C820061D157 /* walkingView.cas */; };
 		91D5678F1C1B9E730061D157 /* WalkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D5678E1C1B9E730061D157 /* WalkingView.m */; };
-		ED259708F23B81F1A205BA8F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F71288C0638272A018BC19E /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +97,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F71288C0638272A018BC19E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DF7DAF86C4B25EB9A9B5A5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2606B833266DFEE21AEC9E04 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5517F86F1BCDF8FE008332B1 /* CustomPopupDialogControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopupDialogControllerViewController.h; sourceTree = "<group>"; };
 		5517F8701BCDF8FE008332B1 /* CustomPopupDialogControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopupDialogControllerViewController.m; sourceTree = "<group>"; };
@@ -223,8 +223,8 @@
 				5544C8011BB4F1940046DB5F /* CoreBluetooth.framework in Frameworks */,
 				5544C8021BB4F1940046DB5F /* CoreLocation.framework in Frameworks */,
 				5544C8031BB4F1940046DB5F /* CoreMotion.framework in Frameworks */,
-				ED259708F23B81F1A205BA8F /* Pods.framework in Frameworks */,
 				915BA4371C1FD4500004EF95 /* HealthKit.framework in Frameworks */,
+				405502F579E8C887019D8CC0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +479,7 @@
 			isa = PBXGroup;
 			children = (
 				915BA4361C1FD4500004EF95 /* HealthKit.framework */,
-				1F71288C0638272A018BC19E /* Pods.framework */,
+				00DF7DAF86C4B25EB9A9B5A5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
