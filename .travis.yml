@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode7.2
 script:
-- xctool -workspace CavyLifeBand.xcworkspace -scheme CavyLifeBand -configuration Release OBJROOT=$PWD/build   SYMROOT=$PWD/build
+- xctool -workspace CavyLifeBand.xcworkspace -scheme CavyLifeBand -configuration Release OBJROOT=$PWD/build   SYMROOT=$PWD/build CODE_SIGN_IDENTITY="iPhone Distribution: Hangzhou Cavy Technology Co., Ltd."
 before_script:
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/comcavytechcavylife.mobileprovision.enc -d -a -out scripts/profile/comcavytechcavylife.mobileprovision
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
