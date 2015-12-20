@@ -1,7 +1,7 @@
 language: objective-c
 osx_image: xcode7.2
 script:
-- xctool -workspace CavyLifeBand.xcworkspace -scheme CavyLifeBand -configuration Release OBJROOT=$PWD/build   SYMROOT=$PWD/build CODE_SIGN_IDENTITY="iPhone Distribution: Hangzhou Cavy Technology Co., Ltd."
+- xctool -workspace CavyLifeBand.xcworkspace -scheme CavyLifeBand -configuration Release OBJROOT=$PWD/build   SYMROOT=$PWD/build
 before_script:
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/comcavytechcavylife.mobileprovision.enc -d -a -out scripts/profile/comcavytechcavylife.mobileprovision
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
@@ -13,7 +13,7 @@ after_script:
 - ./scripts/remove-key.sh
 env:
   global:
-  - APP_NAME="TravisExample"
+  - APP_NAME="CavyLifeBand"
   - 'DEVELOPER_NAME="iPhone Distribution: Hangzhou Cavy Technology Co., Ltd."'
   - PROFILE_NAME="comcavytechcavylife"
   - secure: l5fLD9Dzzb1ahluHVKITXkHLE3UBUBe1DkJozJlID6B8dAZtTGWV4+1Ki8IAz71mHxFK2Xzy3V48zo/N/3KIawISFFoGAOr1WgdDYctJdon347c2FGESAuOAXkRHFREsfXFI7SDcmJB2Z4GnsMGbYpe3i7CdQYrEhsrAzE1aI7yzTCeUv1VkDLfnaa1af+r77bjBpbNBTxMmxgFenyf56EO7YeHqZiqs6wFOQBpcgfs//K+5xEpnD1ZmrDwzqDEeFBvS0yiC8IqeaTQs8zlOQ79ucJ7UCP7cWQcaqnT56rBU4csYHVwGq2DXvPO3ffjykVMft0WqVOxfIcTtnkr6GM4jqppzN1HQK/3Dn6crNeXqK5YJ5Pa2D2RQEFUYkiBFrxyTR0KwYjUnbLEBckSd7UZyxj78+W0sZSgpafh2r0bFT/UzqcahGaTCibDqVxjnttrNpd9jy6qRpuVzuK2lo8BW5wyPMaci+S/uqHbilXn9vRHm+fVsFG2HKDKu414xbMMa0w61kNWH1FByvAjHVLn9n76a5PKOy6603wGB8RYolDh/ExBnRsqv+St3YV0JLsFhSKhD0RWOFVrAyEUkj9br18RJyEITftdYfHckpbM0/D/T1W9+dDobVz6Aru0BDX6xM2TOP2fRt8kwo+6aogXn+QOogTdbVQOJrao/eY0=
