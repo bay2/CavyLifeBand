@@ -1,0 +1,13 @@
+language: objective-c
+script: xctool -workspace CavyLifeBand.xcworkspace -scheme CavyLifeBand -configuration Release  SYMROOT=$PWD/build
+
+before_script:
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/comcavytechcavylife.mobileprovision.enc -d -a -out scripts/profile/comcavytechcavylife.mobileprovision
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/apple.p12.enc -d -a -out scripts/certs/apple.p12
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/apple.p12.enc -d -a -out scripts/certs/apple.p12
+
+env:
+  global:
+  - APP_NAME="TravisExample"
+  - 'DEVELOPER_NAME="iPhone Distribution: Hangzhou Cavy Technology Co., Ltd."'
+  - PROFILE_NAME="comcavytechcavylife"
