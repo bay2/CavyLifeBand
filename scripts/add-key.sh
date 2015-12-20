@@ -11,7 +11,5 @@ security import ./scripts/certs/dist.p12 -k ~/Library/Keychains/ios-build.keycha
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 cp ./scripts/profile/$PROFILE_NAME.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
 
-echo $KEY_PASSWORD
-
 security find-identity -p codesigning ~/Library/Keychains/ios-build.keychain
 security list-keychain
