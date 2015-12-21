@@ -22,5 +22,5 @@ if [ ! -z "$PGYER_APP_KEY" ] && [ ! -z "$PGYER_API_KEY" ]; then
   curl http://www.pgyer.com/apiv1/app/upload \
     -F uKey="$PGYER_APP_KEY" \
     -F _api_key="$PGYER_API_KEY" \
-    -F file="@$OUTPUTDIR/$APP_NAME.ipa" \
+    -F file="@$OUTPUTDIR/$APP_NAME.ipa"
 fi
