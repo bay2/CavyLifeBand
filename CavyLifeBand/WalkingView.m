@@ -909,7 +909,7 @@
         NSNumber *stepNum = [self.sevenDayStepValue valueForKey:[NSString stringWithFormat:@"%ld", i]];
         double step = stepNum.doubleValue;
         
-        CGFloat percent = (CGFloat)(step / 20000);
+        CGFloat percent = (CGFloat)(step / 10000);
         NSLog(@"%ld : %f: %f", i, stepNum.doubleValue, percent);
     
         [maskView mas_remakeConstraints:^(MASConstraintMaker *make) {

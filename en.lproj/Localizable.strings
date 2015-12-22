@@ -30,8 +30,8 @@
 "Todoy Count" = "Steps Today";
 "Seven Day"   = "Latest 7 Day";
 "Every Day Count Avg" = "Avg. Steps";
-"Distance"      = "Dist.: KM";
-"Active Time"   = "Active: Min.";
+"Distance"      = "Dist : KM";
+"Active Time"   = "Active : Min";
 
 //camera page part
 "FlashLight On"     = "On";
