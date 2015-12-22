@@ -910,6 +910,9 @@
         double step = stepNum.doubleValue;
         
         CGFloat percent = (CGFloat)(step / 10000);
+        if (percent > 1) {
+            percent = 1;
+        }
         NSLog(@"%ld : %f: %f", i, stepNum.doubleValue, percent);
     
         [maskView mas_remakeConstraints:^(MASConstraintMaker *make) {
