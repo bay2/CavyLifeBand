@@ -40,5 +40,6 @@
 @property (strong, nonatomic) UIView         *mainView;
 #define WeekLabWidth 32
 #define DayTimeInterval (24*60*60)
+#define StatFontSize 34
 
 @end

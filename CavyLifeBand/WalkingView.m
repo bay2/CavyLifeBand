@@ -276,7 +276,7 @@
         
         make.centerX.equalTo(self.everyDayLab);
         make.height.equalTo(@(self.everyDayValueLab.cas_sizeHeight));
-        make.top.equalTo(self.everyDayLab.mas_bottom).offset(9);
+        make.top.equalTo(self.everyDayLab.mas_bottom).offset(6);
         
     }];
 
@@ -428,7 +428,7 @@
     if (_everyDayValueLab == nil) {
         _everyDayValueLab = [UILabel new];
         _everyDayValueLab.cas_styleClass = @"everyDayValueLab";
-        [_everyDayValueLab setFont:[UIFont systemFontOfSize:40 weight:UIFontWeightThin]];
+        [_everyDayValueLab setFont:[UIFont systemFontOfSize:StatFontSize weight:UIFontWeightThin]];
         [_everyDayValueLab setText:@"0"];
         
         [WalkManger querySevenDayAvgStepCount:^(double stepCount, BOOL succeed) {
@@ -458,7 +458,7 @@
     if (_distanceValueLab == nil) {
         _distanceValueLab = [UILabel new];
         _distanceValueLab.cas_styleClass = @"distaceValueLab";
-        [_distanceValueLab setFont:[UIFont systemFontOfSize:40 weight:UIFontWeightThin]];
+        [_distanceValueLab setFont:[UIFont systemFontOfSize:StatFontSize weight:UIFontWeightThin]];
         [_distanceValueLab setText:@"0"];
         
         [WalkManger querySevenDayDistance:^(double distance, BOOL succeed) {
@@ -493,7 +493,7 @@
     if (_activeValueLab == nil) {
         _activeValueLab = [UILabel new];
         _activeValueLab.cas_styleClass = @"activeValueLab";
-        [_activeValueLab setFont:[UIFont systemFontOfSize:40 weight:UIFontWeightThin]];
+        [_activeValueLab setFont:[UIFont systemFontOfSize:StatFontSize weight:UIFontWeightThin]];
         [_activeValueLab setText:@"0"];
         
         [WalkManger querySevenDayActive:^(double min, BOOL succeed) {
