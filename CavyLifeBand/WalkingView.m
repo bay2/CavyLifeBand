@@ -538,7 +538,7 @@
         _dateLab.cas_styleClass = @"dateLab";
         
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-        [formatter setDateFormat:@"YYYY.MM.dd"];
+        [formatter setDateFormat:@"yyyy.MM.dd"];
         
         NSDate *curDate = [NSDate date];
         
